@@ -1,21 +1,17 @@
 <div class="container__big-card">
 
   <div class="big-card__photo">
-    <img src="https://disneyplusbrasil.com.br/wp-content/uploads/2022/05/Doutor-Estranho-2.jpg"
-     alt="Imagem text"
-     height="200px"
-     srcset=""
-     >
+    <img src="{{ photoCover }}" alt="Imagem text" height="200px" srcset="">
   </div>
   <div class="big-card__title">
-    <H1><a href="#">Saiu a nova versão do Angular</a></H1>
+    <H1><a href="#">{{ cardTitle }}</a></H1>
 
   </div>
   <div class="big-card__description">
     <p>
       <a href="#">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, aspernatur qui quos amet fuga itaque necessitatibus unde ipsam ad cumque voluptate officiis sunt odit a error. Quisquam natus quae iste.
+        {{cardDescription}}
       </a>
-      </p>
+    </p>
   </div>
 </div>
